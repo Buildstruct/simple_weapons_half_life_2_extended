@@ -9,7 +9,7 @@ ENT.AutomaticFrameAdvance = true
 
 ENT.Model = Model("models/simple_weapons/crossbow_bolt_he.mdl")
 
-ENT.Damage = 100
+ENT.Damage = 650
 
 function ENT:Initialize()
 	self:SetModel(self.Model)
